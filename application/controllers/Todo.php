@@ -14,4 +14,8 @@ class Todo extends CI_Controller {
         $this->load->view('/todo/index',$data);
     }
 
+    public function create() {
+        
+    }
+
 }   
